@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+}
+
+html body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-image: url(https://png.pngtree.com/background/20230525/original/pngtree-an-image-of-a-chocolate-covered-cupcake-on-a-dark-surface-picture-image_2731065.jpg);
+    height: calc(100% - 165px);
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 30px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+nav span {
+    color: #ffff;
+    /* display: flex;
+    gap: 18px; */
+    font-size: 1.5vw;
+}
+
+nav i {
+    margin: 8px;
+}
+
+nav h1 {
+    font-family: "My Soul", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(235, 212, 38);
+    font-size: 5vw;
+    margin-left: 157px;
+
+}
+
+nav .call {
+    height: 8vh;
+    width: 18vw;
+    border: 2px solid yellow;
+    color: #ffff;
+    font-size: 1.3vw;
+    padding: 16px 25px;
+    color: rgb(235, 212, 38);
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 65px;
+    width: auto;
+    background-color: black;
+    position: relative;
+    position: sticky;
+    top: 0px;
+}
+
+.bx {
+    height: 600px;
+    width: 619px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx h1 {
+    font-weight: 250;
+    font-size: 5vw;
+}
+
+.bx button {
+    height: 7vh;
+    width: 11vw;
+    background-color: rgb(235, 212, 38);
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+section .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading2 .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.h2 {
+    font-size: 2vw;
+    font-weight: 250;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6vh;
+
+
+}
+
+.box2>:first-child {
+    height: 75vh;
+    width: 35vw;
+    padding: 3vw 11vh;
+}
+
+.box2>:nth-child(2) {
+    height: 68vh;
+    width: 35vw;
+    background-image: url(https://preview.colorlib.com/theme/cakeshop/assets/img/gallery/about1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.b1 h3 {
+    font-size: 1vw;
+}
+
+/* .b1 {} */
+
+.b1 h3 {
+    font-size: 1vw;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+
+.b1 h4 {
+    color: rgb(235, 212, 38);
+    font-size: 1.vw;
+    line-height: 3vh;
+    margin-bottom: 2vh
+}
+.pbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    /* height:500px;
+    width: 80%; */
+    margin: auto;
+    /* margin-bottom: 6vh; */
+    margin-top: 18vh;
+    gap: 100px;
+}
+.p1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqyG7A5aV6jNSg2J08R0wBEKGcCdNXgHHhSw&s);
+    height: 49vh;
+    width: 23vw;
+    background-position: center center;
+    background-size: cover;
+}
+.p2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3_s7EKmPS-mfk8g2KDVJncEerUbUhLkSy1Q&s);
+    height: 49vh;
+    width: 23vw;
+    background-position: center center;
+    background-size: cover;
+}
+.p3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReAY8Rm0T8X1Gsf9mdAHajQ-cx_DVDKrFtTA&s);
+    height: 49vh;
+    width: 23vw;
+    background-position: center center;
+    background-size: cover;
+}
+
+.price{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+.price1{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+
+}
+.price2{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+}
+.price3{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+}
+.plist{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+.l1{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+}
+.l2{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+}
+.l3{
+    /* width: fit-content; */
+    width: 23vw;
+    gap: 100px;
+}
